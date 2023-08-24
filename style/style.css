@@ -137,7 +137,6 @@ header {
     display: flex;
     position: relative;
 
-    border: 2px solid black;
     padding: 15px;
 }
 
@@ -148,7 +147,7 @@ header {
 .content-brief-ava {
     width: 300px;
     height: 300px;
-    border: 2px solid blue;
+    border: 1px solid rgba(0, 0, 0, 0.5);
     margin-right: 25px;
     margin-bottom: 25px;
     color: #f1f1f2;
@@ -216,7 +215,7 @@ header {
 /* -------------------------------- */
 
 .content-gallery {
-    border: 2px solid green;
+    border-top: 1px solid #bcbabe;
 }
 
 .content-gallery-text {
@@ -405,7 +404,6 @@ footer {
 
     width: auto;
     height: 80%;
-    border: 3px solid rgb(255, 1, 1);
 }
 
 .next,
