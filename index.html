@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/nullifingStyle.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="errorFile"></div>
+    <div class="showGallery">
+        <div class="next"></div>
+        <div class="previous"></div>
+        <div class="scoreFile"></div>
+    </div>
+
+
+        <header>
+            <div class="header-logo">
+                <!-- <img src="" alt=""> -->
+            </div>
+            <nav>
+                <ul class="header-list">
+                    <li>Пункт навигации</li>
+                    <li>Пункт навигации</li>
+                    <li>Пункт навигации</li>
+                    <li>Пункт навигации</li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <aside class="side">
+                <nav>
+                    <ul class="side-list">
+                        <li>Пункт сайдбара</li>
+                        <li>Пункт сайдбара</li>
+                        <li>Пункт сайдбара</li>
+                        <li>Пункт сайдбара</li>
+                        <li>Пункт сайдбара</li>
+                        <li>Пункт сайдбара</li>
+                        <li>Пункт сайдбара</li>
+                    </ul>
+                </nav>
+            </aside>
+            <section class="content">
+
+                <!-- Общая информация -->
+
+                <article class="content-brief">
+                    <div class="content-brief-photo">
+                        <div class="content-brief-ava">
+                            <img src="/img/avatar.jpg" alt="">
+                        </div>
+                        <input id="input-ava" type="file" onchange="donwloadAva(this)">
+                        <label for="input-ava">Сменить аватар</label>
+                    </div>
+                    <div class="content-brief-info">
+                            <ul class="content-brief-info-list">
+                                <li>
+                                    <input type="text" class="input-text" data-inpun-brief-info='1'>
+                                    <h1 class="brief-info" data-brief-info='1'>Вася Пупкин</h1>
+                                    </li>
+                                    
+                                    <p class="brief-description">Страна, город:</p>
+                                    <input type="text" class="input-text" data-inpun-brief-info='2'>
+                                <li><p class="brief-info" data-brief-info='2'>Марс, кратор 23</p></li>
+                                <li>
+                                    <p class="brief-description">Номер телефона:</p>
+                                    <input type="text" class="input-text" data-inpun-brief-info='3'>
+                                    <p class="brief-info" data-brief-info='3'>0987654321</p>
+                                </li>
+                                <li>
+                                    <p class="brief-description">Почта:</p>
+                                    <input type="text" class="input-text" data-inpun-brief-info='4'>
+                                    <p class="brief-info" data-brief-info='4'>gmail@gmail.com</p>
+                                </li>
+                            </ul>
+                    </div>
+                    <div class="information">
+                        <img src="img/information.png" alt="">
+                    </div>
+                </article>
+
+
+                <!-- Галерея -->
+
+                <article class="content-gallery">
+                    <div class="content-gallery-text">
+                        <h2>Фото и видео</h2>
+                        <input id="input-file" type="file" onchange="donwload(this)">
+                        <label for="input-file">Добавить</label>
+                    </div>
+                    <div class="content-gallery-block">
+                    </div>
+                    
+
+
+                </article>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-text">
+                <p>2023</p>
+            </div>
+        </footer>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
